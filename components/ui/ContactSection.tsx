@@ -1,6 +1,6 @@
 "use client";
 import { MdOutlineWhatsapp } from "react-icons/md";
-import GithubIcon from "@/public/github-icon.svg";
+import GithubIcon from "@/public/assets/github-icon.svg";
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
