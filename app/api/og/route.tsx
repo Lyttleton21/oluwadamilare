@@ -8,7 +8,7 @@ export const runtime = "edge";
 export async function GET(reg: Request) {
   try {
     const image = await fetch(
-      new URL("../../../public/assets/OG.jpeg", import.meta.url)
+      new URL("../../../public/assets/OG.jpg", import.meta.url)
     ).then((res) => res.arrayBuffer());
 
     return new ImageResponse(
@@ -16,10 +16,11 @@ export async function GET(reg: Request) {
         <div
           style={{
             display: "flex",
-            margin: "auto",
+            marginLeft: "auto",
+            marginRight: "auto",
           }}
         >
-          <img src={image} height="550" width={550} alt="Open Image" />
+          <img src={image} height="600" width={650} alt="Open Image" />
         </div>
       )
     );
