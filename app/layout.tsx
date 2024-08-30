@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   title: "Portfolio",
   description:
     "I'm Bolarinwa Damilare by Name, a skilled full-stack developer with passion for building robust, scalable, and user-friendly applications.",
+  openGraph: {
+    images: [
+      {
+        url: "http://localhost:3000/api/og",
+        alt: "Open Graph Image",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
