@@ -20,7 +20,7 @@ export async function GET(reg: Request) {
             marginRight: "auto",
           }}
         >
-          <img src={image} height="650" width={650} />
+          <img src={image} height="650" width={650} alt="Open Image" />
         </div>
       )
     );
