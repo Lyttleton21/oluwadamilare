@@ -6,7 +6,7 @@ import ProjectsSection from "@/components/ui/ProjectsSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212]">
+    <main className="bg-[#121212]">
       <HeroSection />
       <AboutSection />
       <ProjectsSection />

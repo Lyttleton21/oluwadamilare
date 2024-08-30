@@ -20,6 +20,13 @@ const projectsData: ProjectsProps[] = [
     imageUrl: "/assets/FindGame.png",
     Url: "https://find-game.vercel.app/",
   },
+  {
+    id: 2,
+    title: "Portfolio",
+    description: "A simple Portfolio website built with Next.js",
+    imageUrl: "/assets/Portfolio.png",
+    Url: "https://devoluwadamilare.vercel.app/",
+  },
 ];
 
 const cardVariants = {
