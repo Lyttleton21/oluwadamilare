@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "http://localhost:3000/api/og",
+        url: "https://devoluwadamilare.vercel.app/api/og",
         alt: "Open Graph Image",
       },
     ],
