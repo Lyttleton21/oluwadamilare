@@ -10,9 +10,9 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
-      <div className="container">
-        <ContactSection />
-      </div>
+      {/* <div className="container"> */}
+      <ContactSection />
+      {/* </div> */}
       <Footer />
     </main>
   );

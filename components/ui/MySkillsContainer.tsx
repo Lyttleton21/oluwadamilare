@@ -1,9 +1,20 @@
-import React, { ReactNode } from "react";
+import { Card } from "./card";
 
 interface Props {
-  children: ReactNode;
+  imageUrl: string;
 }
 
-export default function MySkillsContainer({ children }: Props) {
-  return <div className="object-cover w-1/4">{children}</div>;
+export default function MySkillsContainer({ imageUrl }: Props) {
+  return (
+    <div
+      className="h-60 w-60"
+      style={{
+        background: `url(${imageUrl})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        borderRadius: "15px",
+      }}
+    />
+  );
 }

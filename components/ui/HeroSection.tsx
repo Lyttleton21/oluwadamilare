@@ -8,7 +8,7 @@ import headerImage from "@/public/assets/header-img.svg";
 
 export default function HeroSection() {
   return (
-    <section className="bg-hero-pattern bg-[top_center] bg-cover bg-no-repeat h-[80vh] md:h-[85vh] lg:h-[100vh]">
+    <section className="bg-hero-pattern bg-[top_center] bg-fixed bg-cover bg-no-repeat h-[80vh] md:h-[85vh] lg:h-[100vh]">
       <div className="grid sm:grid-cols-12 items-center justify-center h-full w-full px-4">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}

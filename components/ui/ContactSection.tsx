@@ -42,7 +42,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="grid md:grid-cols-2 my-12 gap-4 relative md:px-12  md:py-24"
+      className="grid md:grid-cols-2 my-12 gap-4 relative md:px-12 container md:py-24"
     >
       <div className="z-10">
         <h5 className="text-xl font-bold my-2 text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
