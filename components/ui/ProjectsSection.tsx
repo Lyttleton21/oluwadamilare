@@ -27,6 +27,14 @@ const projectsData: ProjectsProps[] = [
     imageUrl: "/assets/Portfolio.png",
     Url: "https://devoluwadamilare.vercel.app/",
   },
+  {
+    id: 3,
+    title: "Vidly",
+    description:
+      "This project is the back-end of Vidly, an imaginary video rental app.",
+    imageUrl: "/assets/vidly.png",
+    Url: "https://github.com/Lyttleton21/VIDLY",
+  },
 ];
 
 const cardVariants = {

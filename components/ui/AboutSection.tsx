@@ -18,13 +18,13 @@ export default function AboutSection() {
             About Me
           </h2>
           <p className="text-base text-[#ADB7BE] lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, React Native, Next.js, Node.js,
-            Express, PostgreSQL, Sequelize, HTML, CSS, and Git. I am a quick
-            learner and I am always looking to expand my knowledge and skill
-            set. I am a team player and I am excited to work with others to
-            create amazing applications.
+            I am a full stack developer with a passion for creating interactive
+            and responsive applications. I have experience working with
+            JavaScript, React, React Native, Next.js, Node.js, Express,
+            PostgreSQL, Sequelize, HTML, CSS, and Git. I am a quick learner and
+            I am always looking to expand my knowledge and skill set. I am a
+            team player and I am excited to work with others to create amazing
+            applications.
           </p>
           <div className="text-center">
             <h2 className="text-4xl font-bold mt-4 text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
