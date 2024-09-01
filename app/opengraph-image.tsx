@@ -8,9 +8,9 @@ export const runtime = "edge";
 export const alt = "About Damlilare";
 
 export default async function Image() {
-  const logoSrc = await fetch(new URL("/assets/OG.jpg", import.meta.url)).then(
-    (res) => res.arrayBuffer()
-  );
+  const logoSrc = await fetch(
+    new URL("../public/assets/OG.jpg", import.meta.url)
+  ).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
     (
