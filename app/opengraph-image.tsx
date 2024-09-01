@@ -35,7 +35,7 @@ export default async function Image() {
           textAlign: "center",
         }}
       >
-        <img src={logoSrc} height="350" width="350" />
+        <img src={logoSrc} height="450" width="450" />
         <div
           style={{
             backgroundImage:
