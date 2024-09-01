@@ -13,9 +13,9 @@ export const alt = "About Damlilare";
 export const contentType = "image/png";
 
 export default async function Image() {
-  // const logoSrc = await fetch(
-  //   new URL("../public/assets/OGIMG.jpg", import.meta.url)
-  // ).then((res) => res.arrayBuffer());
+  const logoSrc = await fetch(
+    new URL("../public/assets/OGIMG.jpg", import.meta.url)
+  ).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
     (
@@ -27,7 +27,7 @@ export default async function Image() {
           alignItems: "center",
           justifyContent: "center",
           flexDirection: "column",
-          backgroundImage: "linear-gradient(to bottom, #dbf4ff, #fff1f1)",
+          // backgroundImage: "linear-gradient(to bottom, #dbf4ff, #fff1f1)",
           fontSize: 60,
           letterSpacing: -2,
           fontWeight: 700,
