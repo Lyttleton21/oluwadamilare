@@ -6,10 +6,10 @@ import { ImageResponse } from "next/og";
 export const runtime = "edge";
 
 export const alt = "About Damlilare";
-// export const size = {
-//   width: 1200,
-//   height: 630,
-// };
+export const size = {
+  width: 1200,
+  height: 630,
+};
 export const contentType = "image/png";
 
 export default async function Image() {
@@ -35,7 +35,7 @@ export default async function Image() {
           textAlign: "center",
         }}
       >
-        <img src={logoSrc} height="100" width="100" />
+        <img src={logoSrc} height="200" width="200" />
         <div
           style={{
             backgroundImage:
