@@ -14,7 +14,7 @@ export const contentType = "image/png";
 
 export default async function Image() {
   const logoSrc = await fetch(
-    new URL("../public/assets/OGIMG.jpg", import.meta.url)
+    new URL("../public/assets/BetterOG.jpg", import.meta.url)
   ).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
@@ -28,6 +28,7 @@ export default async function Image() {
           justifyContent: "center",
           flexDirection: "column",
           // backgroundImage: "linear-gradient(to bottom, #dbf4ff, #fff1f1)",
+          backgroundColor: "white",
           fontSize: 60,
           letterSpacing: -2,
           fontWeight: 700,

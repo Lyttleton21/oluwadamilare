@@ -32,7 +32,7 @@ const projectsData: ProjectsProps[] = [
     title: "Vidly",
     description:
       "This project is the back-end of Vidly, an imaginary video rental app.",
-    imageUrl: "/assets/vidly.png",
+    imageUrl: "/assets/Vidly.png",
     Url: "https://github.com/Lyttleton21/VIDLY",
   },
 ];
