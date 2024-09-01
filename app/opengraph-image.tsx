@@ -11,7 +11,6 @@ export const alt = "About Damlilare";
 //   height: 630,
 // };
 export const contentType = "image/png";
-// <img src={logoSrc} height="100" width="100" />
 
 export default async function Image() {
   // const logoSrc = await fetch(
@@ -35,6 +34,7 @@ export default async function Image() {
           textAlign: "center",
         }}
       >
+        <img src={logoSrc} height="100" width="100" />
         <div
           style={{
             backgroundImage:
