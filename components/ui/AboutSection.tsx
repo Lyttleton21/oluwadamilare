@@ -12,6 +12,7 @@ export default function AboutSection() {
           height={500}
           alt="About Image"
           className="rounded-t-xl"
+          priority
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
